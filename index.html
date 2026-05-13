@@ -57,12 +57,22 @@
                         <div class="box">
                             <div class="circle-box">
                                 <div class="circle"></div>
+
                                 <i class="fa-solid fa-x"></i>
                                 <i class="fa-solid fa-circle"></i>
                             </div>
+
                             <div class="imgbox">
-                                <video src="assets/demo-screen.mp4"></video>
-                                <img src="assets/portrait_black.png" alt="">
+
+                                <video class="demo-video" autoplay muted loop playsinline preload="metadata">
+                                    <source src="assets/demo-screen.webm" type="video/webm">
+                                    <source src="assets/demo-screen.mp4" type="video/mp4">
+
+                                    <!-- Brauzer videonu dəstəkləmir. -->
+                                </video>
+
+                                <img src="assets/portrait_black.png" class="phone" alt="Phone Frame">
+
                             </div>
                         </div>
                     </div>

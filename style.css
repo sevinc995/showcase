@@ -1,6 +1,7 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+  overflow: hidden;
 }
 
 a {
@@ -8,10 +9,6 @@ a {
 }
 a:hover {
   color: black;
-}
-
-.imgbox {
-  img: width 100%;
 }
 
 #intuitive {
@@ -42,4 +39,25 @@ a:hover {
   flex-direction: row;
   width: 150px;
   height: 50px;
+}
+#showcase .box .imgbox {
+  position: relative;
+}
+#showcase .box .imgbox .demo-video {
+  position: absolute;
+  width: 450px;
+  height: 650px;
+  top: 2%;
+  right: 3%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 35px;
+}
+#showcase .box .imgbox .phone {
+  z-index: 999;
+  position: absolute;
+  width: 450px;
+  height: 650px;
+  top: 3%;
+  right: 3%;
 }/*# sourceMappingURL=style.css.map */
