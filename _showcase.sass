@@ -1,36 +1,41 @@
 #showcase
     padding: 90px 0
     .box
+        display: flex
+        flex-direction: column
         .textbox
             width: 500px
-            padding: 30px
             h1
                 font-weight: 700
                 font-size: 75px
                 line-height: 1.2
             h3
-                font-weight: 400
+                font-weight: 300
                 font-size: 20px
                 line-height: 1.3
                 margin-top: 40px
                 color: #bab8b6
         .play-app
+            margin-top: 30px
             display: flex
             flex-direction: row
             width: 150px
             height: 50px
+            .googleplay
+                margin-right: 20px
+
     .box-show
         width: 100%
         height: 100vh
         position: relative
         .circle-box
             position: absolute
-            top: 5%
+            top: 8%
             right: 11%
             .circle
                 width: 400px
                 height: 400px
-                background-color: #524f4f
+                background: linear-gradient(to right, #2d36ef, #6528e8, #9b1ae2)
                 border-radius: 50%
         .videobox
             position: relative
@@ -41,8 +46,8 @@
             height: 600px
             .demo-video
                 position: absolute
-                width: 260px
-                height: 520px
+                width: 240px
+                height: 480px
                 top: 3%
                 right: 5%
                 object-fit: cover
@@ -51,7 +56,23 @@
             .phone
                 z-index: 999
                 position: absolute
-                width: 280px
-                height: 540px
+                width: 260px
+                height: 500px
                 top: 2%
                 right: 3%
+        #exit
+            position: absolute
+            bottom: 140px
+            left: 80px
+            color: #2d36ef
+            font-size: 20px
+            font-weight: 900
+            transform: rotate(165deg)
+        #point
+            position: absolute
+            top: 60px
+            right: 30px
+            color: #2d36ef
+            
+            
+

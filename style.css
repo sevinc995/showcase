@@ -13,22 +13,48 @@ a:hover {
   color: black;
 }
 
+.imgbox img {
+  width: 100%;
+  height: 100%;
+}
+
 .videobox .demo-video, .videobox .phone {
   width: 100%;
   height: 100%;
 }
 
 #intuitive {
-  padding: 90px 0;
-  background: #7025e7;
+  padding: 80px 0;
+  background: linear-gradient(to right, #2d36ef, #6528e8, #9b1ae2);
+}
+#intuitive .textbox {
+  width: 750px;
+  text-align: center;
+}
+#intuitive .textbox h1 {
+  color: white;
+  font-size: 45px;
+}
+#intuitive .box-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#intuitive .box-logo .imgbox {
+  margin-top: 20px;
+  width: 120px;
+  height: 80px;
 }
 
 #showcase {
   padding: 90px 0;
 }
+#showcase .box {
+  display: flex;
+  flex-direction: column;
+}
 #showcase .box .textbox {
   width: 500px;
-  padding: 30px;
 }
 #showcase .box .textbox h1 {
   font-weight: 700;
@@ -36,17 +62,21 @@ a:hover {
   line-height: 1.2;
 }
 #showcase .box .textbox h3 {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
   line-height: 1.3;
   margin-top: 40px;
   color: #bab8b6;
 }
 #showcase .box .play-app {
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   width: 150px;
   height: 50px;
+}
+#showcase .box .play-app .googleplay {
+  margin-right: 20px;
 }
 #showcase .box-show {
   width: 100%;
@@ -55,13 +85,13 @@ a:hover {
 }
 #showcase .box-show .circle-box {
   position: absolute;
-  top: 5%;
+  top: 8%;
   right: 11%;
 }
 #showcase .box-show .circle-box .circle {
   width: 400px;
   height: 400px;
-  background-color: #524f4f;
+  background: linear-gradient(to right, #2d36ef, #6528e8, #9b1ae2);
   border-radius: 50%;
 }
 #showcase .box-show .videobox {
@@ -74,8 +104,8 @@ a:hover {
 }
 #showcase .box-show .videobox .demo-video {
   position: absolute;
-  width: 260px;
-  height: 520px;
+  width: 240px;
+  height: 480px;
   top: 3%;
   right: 5%;
   -o-object-fit: cover;
@@ -85,8 +115,23 @@ a:hover {
 #showcase .box-show .videobox .phone {
   z-index: 999;
   position: absolute;
-  width: 280px;
-  height: 540px;
+  width: 260px;
+  height: 500px;
   top: 2%;
   right: 3%;
+}
+#showcase .box-show #exit {
+  position: absolute;
+  bottom: 140px;
+  left: 80px;
+  color: #2d36ef;
+  font-size: 20px;
+  font-weight: 900;
+  transform: rotate(165deg);
+}
+#showcase .box-show #point {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  color: #2d36ef;
 }/*# sourceMappingURL=style.css.map */
