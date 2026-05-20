@@ -134,4 +134,47 @@ a:hover {
   top: 60px;
   right: 30px;
   color: #2d36ef;
+}
+
+#features .box-device {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+#features .box-device .circle-box {
+  position: absolute;
+  top: 8%;
+  left: 0;
+}
+#features .box-device .circle-box .circle {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(to right, #2d36ef, #6528e8, #9b1ae2);
+  border-radius: 50%;
+}
+#features .box-device .videobox {
+  position: relative;
+  position: absolute;
+  top: 0;
+  right: 10%;
+  width: 400px;
+  height: 600px;
+}
+#features .box-device .videobox .demo-video {
+  position: absolute;
+  width: 240px;
+  height: 480px;
+  top: 3%;
+  right: 5%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40px;
+}
+#features .box-device .videobox .phone {
+  z-index: 999;
+  position: absolute;
+  width: 260px;
+  height: 500px;
+  top: 2%;
+  right: 3%;
 }/*# sourceMappingURL=style.css.map */
